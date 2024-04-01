@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="j2hJGLIJlfqGti8abIS9" name="ページ1">
+        <mxGraphModel dx="746" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" value="利用者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="概念ER図" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="支援者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="症状改善" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=ERone;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="145" as="sourcePoint"/>
+                        <mxPoint x="230" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190" y="165"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=ERone;html=1;curved=0;rounded=0;endSize=8;startSize=8;startArrow=ERone;startFill=0;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="217.75" as="sourcePoint"/>
+                        <mxPoint x="230" y="202.25" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190" y="237.75"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="チャットサービス" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=ERoneToMany;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="28">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="190" as="sourcePoint"/>
+                        <mxPoint x="410" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
